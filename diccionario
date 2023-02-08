@@ -1,0 +1,18 @@
+#tambien se puede usar el diccionario con la palabra reservada dict
+diccionario = {
+    "nombre" : "Mariano Gutiérrez",
+    "direccion" : {
+        "calle":"s/n",
+        "municipio":"Usulutan",
+        "Departamento":"Usulutan",
+            "pais":{
+            "codigo_iso": "sv",
+            "codigo": 503,
+            "nombre":"El Salvador"
+        }
+    },
+    "fecha_nacimiento":"19/08/1994",
+    "profesion":"Ing. En sistemas",
+    "genero":"masculino"
+}
+print( diccionario["nombre"], diccionario["direccion"]["Departamento"], diccionario["direccion"]["pais"]["nombre"]);
