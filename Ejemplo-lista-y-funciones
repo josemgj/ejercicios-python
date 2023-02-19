@@ -1,0 +1,19 @@
+#Para hacer comentarios en nuestro codigo usamos numeral "#" 
+def muestraLista(lista): #Funcion para mostrar los elemtos de  una lista
+    for x in lista:      #Usamos el ciclo "for, in" esto recorrera nuestro array  
+        print(x)
+
+def cuadrado(numero): #Esta funcion nos muestra el cuadrado de un numero
+    return numero * numero  
+
+frutas = ["Manzana", "Pera", "Naranja", "Plátano", "mandarina"] #Agregue otros elemtos a la lista para que visualice los cambios
+muestraLista(frutas)
+
+"""Para hacer un comentario mas extenso usamos triple comillas dobles
+con el cual podremos pasar a la siguiente linea en nuestros comentarios"""
+############################################################################
+"""datos para la funcion cuadrado colocamos los valores predeterminados 
+    y llamamos la funcion para que opere los numeros asignados"""
+print(cuadrado(5)+1)
+print(cuadrado(15))
+print(cuadrado(55))
